@@ -1,0 +1,35 @@
+vaadin-login-overlay-wrapper::part(content){
+    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/80cba52e-ba2b-4fd5-87a4-9c35e36f6fb8/denloz8-1d63a274-5425-4723-a482-529ea6445abc.jpg/v1/fill/w_1086,h_736,q_70,strp/car_insurance_companies_fin_by_insurancetales_denloz8-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODY3IiwicGF0aCI6IlwvZlwvODBjYmE1MmUtYmEyYi00ZmQ1LTg3YTQtOWMzNWUzNmY2ZmI4XC9kZW5sb3o4LTFkNjNhMjc0LTU0MjUtNDcyMy1hNDgyLTUyOWVhNjQ0NWFiYy5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.kQG93f1QIqs3uZsL9_HKm-9lW6JU-kGP9dEM5s8-tEk');
+    background-size: cover;
+    background-position: center;
+}
+
+.login-overlay::part(brand){
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+.login-overlay::part(card){
+    background-color: orange;
+    min-width: 70vh;
+    min-height: 50vh;
+    margin-right: -140vh;
+}
+vaadin-login-form vaadin-button[theme~="submit"]{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+}
+vaadin-login-form-wrapper vaadin-text-field{
+
+color:orange;
+}
+
+vaadin-login-form-wrapper vaadin-password-field{
+color:orange;
+
+}
+vaadin-login-form [slot="forgot-password"]{
+
+}
