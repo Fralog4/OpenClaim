@@ -33,3 +33,99 @@ color:orange;
 vaadin-login-form [slot="forgot-password"]{
 
 }
+.date-picker::part(toggle-button){
+    color: orange;
+
+}
+.date-picker::part(input-field){
+    color: orange;
+}
+vaadin-date-picker::part(label){
+    color: orange;
+}
+.date-picker::part(helper-text){
+    color: orange;
+}
+.number-of-cars-involved{
+    color: orange;
+
+}
+.number-of-cars-involved::part(increase-button){
+    color: orange;
+}
+.number-of-cars-involved::part(decrease-button){
+    color: orange;
+}
+.number-of-cars-involved::part(label){
+    color: orange;
+}
+.street{
+    color: orange;
+}
+.street::part(label){
+    color: orange;
+}
+.street::part(helper-text){
+    color: orange;
+}
+.city{
+    color: orange;
+}
+.city::part(label){
+    color: orange;
+}
+.city::part(helper-text){
+    color: orange;
+}
+.postal-code{
+    color: orange;
+}
+.postal-code::part(label){
+    color: orange;
+}
+.postal-code::part(helper-text){
+    color: orange;
+}
+.province{
+    color: orange;
+}
+.province::part(label){
+    color: orange;
+}
+.province::part(helper-text){
+    color: orange;
+}
+.description{
+    color: orange;
+}
+.description::part(label){
+    color: orange;
+}
+.description::part(helper-text){
+    color: orange;
+}
+.save-button{
+color: orange;
+}
+.back-to-home-button{
+    color: orange;
+}
+vaadin-upload > vaadin-button::part(label){
+color: orange;
+}
+.refresh-button{
+    color: orange;
+}
+.logout-button{
+    color: orange;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+}
+.home-layout{
+    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/80cba52e-ba2b-4fd5-87a4-9c35e36f6fb8/denloz8-1d63a274-5425-4723-a482-529ea6445abc.jpg/v1/fill/w_1086,h_736,q_70,strp/car_insurance_companies_fin_by_insurancetales_denloz8-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODY3IiwicGF0aCI6IlwvZlwvODBjYmE1MmUtYmEyYi00ZmQ1LTg3YTQtOWMzNWUzNmY2ZmI4XC9kZW5sb3o4LTFkNjNhMjc0LTU0MjUtNDcyMy1hNDgyLTUyOWVhNjQ0NWFiYy5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.kQG93f1QIqs3uZsL9_HKm-9lW6JU-kGP9dEM5s8-tEk');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}

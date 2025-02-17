@@ -78,6 +78,7 @@ public class OpenClaimView extends VerticalLayout {
      * Crea il form per inserire i dettagli del sinistro
      */
     private FormLayout createClaimForm() {
+
         LocalDate date = LocalDate.now();
         DatePicker datePicker = new DatePicker("Data accadimento");
         datePicker.setRequired(true);

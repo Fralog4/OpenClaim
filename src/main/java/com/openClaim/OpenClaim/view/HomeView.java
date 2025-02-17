@@ -25,6 +25,8 @@ public class HomeView extends AppLayout {
     private final SecurityService securityService;
     public HomeView(SecurityService securityService) {
         this.securityService = securityService;
+
+        addClassName("home-layout");
         DrawerToggle toggle = new DrawerToggle();
 
         H1 title = new H1("Open Claim");
